@@ -1,0 +1,23 @@
+#factorial h2{
+    text-align: center;  
+    font-family:cursive;
+    color:coral;
+    background-color:bisque;
+    border: 4px solid chocolate;
+}
+
+#palindromo h2{
+    text-align: right;  
+    font-family:fantasy;
+    color:dimgrey;
+    background-color:#ee2;
+    border: 4px solid #ca2;
+}
+
+#RFC h2{
+    text-align: left;  
+    font-family:sans-serif;
+    color:#aa9;
+    background-color:#9ee;
+    border: 4px solid #9dc; 
+}

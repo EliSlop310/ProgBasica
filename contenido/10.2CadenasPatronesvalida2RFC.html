@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contenidoB.css">
+    <link rel="stylesheet" href="css/EstiloLetra.css">
+<title>Control submit por evento formulario</title>
+<script type="text/javascript" src="js/cadPatronesRFC.js"></script>   
+</head>
+<body>
+	
+	<form id="estiB">
+        <button id="boton" type="button" onclick="mostrar()">Comenzar evento</button>
+    </form>
+    
+       <div id="ContenidoB">
+		RFC
+        <form>   
+        <input type="text" name="txtRFC" maxlength="13" size="15"/>
+		<br/>
+		<input type="submit" onClick="return valida(txtRFC);" value="Ok"/>
+        </form>
+        </div>
+
+      <div id="RFC"><h2>
+        <text id="Resultado"></text>
+    </div></h2>
+    
+</body>
+    <footer>
+ <br><br><a href="javascript:history.back()"> Volver Atrás</a>
+    </footer>
+</html>
+
+
